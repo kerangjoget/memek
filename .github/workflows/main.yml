@@ -17,3 +17,9 @@ jobs:
         run: |
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           echo $d > README.md
+      - name: Commit changes
+        run: |
+          git config --local user.email "{kerangjoget@outlook.com}"
+          git config --local user.name "{kerangjoget}"
+          git add -A
+          git commit -m "Sebuah pesan"
