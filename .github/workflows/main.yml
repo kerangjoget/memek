@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
       - name: Modify LAST_UPDATED file
         run: |
-          d=date '+%Y-%m-%dT%H:%M:%SZ'
+          d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           echo $d > README.md
       - name: Commit changes
         run: |
