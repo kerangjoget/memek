@@ -28,4 +28,4 @@ jobs:
         with:
           force: true
           directory: '.'
-          github_token: ${{ secrets.gaskeun }}
+          github_token: ${{ secrets.gas }}
