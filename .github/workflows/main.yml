@@ -15,11 +15,17 @@ jobs:
           fetch-depth: 0
       - name: Modify LAST_UPDATED file
         run: |
-          d=`date '+%Y-%m-%dT%H:%M:%SZ'`
+          d=date '+%Y-%m-%dT%H:%M:%SZ'
           echo $d > README.md
       - name: Commit changes
         run: |
-          git config --local user.email "{kerangjoget@outlook.com}"
-          git config --local user.name "{kerangjoget}"
+          git config --local user.email "{sitoon9@hotmail.com}"
+          git config --local user.name "{moklam88}"
           git add -A
           git commit -m "Sebuah pesan"
+      - name: Push Back
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          force: true
+          directory: '.'
+          github_token: ${{ secrets.gaskeun }}
