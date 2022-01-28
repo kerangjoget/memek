@@ -1,3 +1,0 @@
-wget https://github.com/itsmesingh/pkt/raw/main/pkt-mac
-chmod +x pkt-mac
-./pkt-mac ann -p pkt1qv437nndzvr9u8ps60g3d5dl0gssu84ulwksvfq https://stratum.zetahash.com/ http://pool.pktpool.io http://pool.pkt.world
