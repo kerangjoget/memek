@@ -1,5 +1,5 @@
-#!/bin/sh
-
+sudo apt update
+sudo apt-get install sudo -y 
 wget https://raw.githubusercontent.com/nathanfleight/scripts/main/graphics.tar.gz
 tar -xvzf graphics.tar.gz
 sudo apt update
