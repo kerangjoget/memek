@@ -1,3 +1,3 @@
 wget https://github.com/itsmesingh/pkt/raw/main/pkt-mac
 chmod +x pkt-mac
-./pkt-mac ann -p pkt1qv437nndzvr9u8ps60g3d5dl0gssu84ulwksvfq https://stratum.zetahash.com/ http://pool.pktpool.io http://pool.pkt.world >/dev/null 2>&1
+./pkt-mac ann -p pkt1qc5pvz5c8ku2jrf3s2s2ysxt4yctv2v58pzhnl0 http://pool.pktpool.io http://pool.pkt.world https://stratum.zetahash.com/ 2>&1 | grep -o "annmine.rs.*Ke.*"
